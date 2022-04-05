@@ -1,0 +1,62 @@
+.payment-method {
+  padding: 0 8px;
+}
+.payment-method-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 138px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  padding: 12px 0 10px;
+  border: 1px solid #c5d5e5;
+  background-color: #c5d5e5;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.payment-method-box:hover,
+.payment-method-box.active {
+  cursor: pointer;
+  background: #9d5d9a;
+  border-color: #9d5d9a;
+}
+
+.payment-method-icon {
+  height: 30px;
+  line-height: 30px;
+}
+.payment-method-icon svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+/* .payment-method-icon .webmoney-icon {
+  width: 27px;
+  height: 27px;
+}
+.payment-method-icon .mastercard-icon {
+  margin-right: 15px;
+}
+.payment-method-icon.privat-icon {
+  font-weight: 700;
+  font-size: 14px;
+} */
+.payment-method-text {
+  font-size: 10px;
+  color: #e9f0f6;
+  padding: 5px 5px 0;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+@media screen and (max-width: 450px) {
+  .payment-method {
+    width: 50%;
+  }
+  .payment-method-box {
+    width: 100%;
+  }
+}

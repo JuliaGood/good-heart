@@ -1,0 +1,47 @@
+.popup-close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -50px;
+  right: 0;
+  cursor: pointer;
+}
+.popup-close svg {
+  width: 40px;
+  height: 40px;
+  fill: #596d91;
+}
+.popup-close svg:hover {
+  fill: #53627d;
+}
+
+@media screen and (max-width: 1150px) {
+  .popup-close {
+    margin-right: 50px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .popup-close {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popup-close {
+    width: 30px;
+    height: 30px;
+  }
+  .popup-close svg {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .popup-close {
+    top: -40px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .popup-close {
+    margin-right: 20px;
+  }
+}

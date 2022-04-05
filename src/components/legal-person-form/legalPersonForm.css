@@ -1,0 +1,11 @@
+.legal-person-form {
+  text-align: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 30px;
+  margin: 30px 0;
+  font-weight: 400;
+  border: 1px solid #ccdae8;
+  border-radius: 12px;
+  color: #989fa7;
+}

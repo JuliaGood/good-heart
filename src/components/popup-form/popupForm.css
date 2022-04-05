@@ -1,0 +1,74 @@
+.popup {
+  position: relative;
+  height: 100%;
+  margin: 80px auto;
+  max-width: 1070px;
+}
+
+.popup-container {
+  background-color: #fff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 30px 70px;
+  box-shadow: 0px 0px 7px 0px #9c9c9cc2;
+}
+.popup-container h2 {
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+}
+
+.help-subtitle {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.help-content {
+  margin-top: 19px;
+  border: 1px solid #ccdae8;
+  border-radius: 12px;
+  padding: 10px 15px;
+}
+
+@media screen and (max-width: 1150px) {
+  .popup-container {
+    margin: 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .popup-container {
+    padding: 30px 40px;
+    margin: 30px;
+  }
+  .popup-container h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .popup {
+    margin: 50px auto;
+  }
+  .popup-container {
+    padding: 20px 30px;
+  }
+  .popup-container h2 {
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .popup-container {
+    padding: 20px;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .popup-container {
+    padding: 15px;
+    margin: 15px;
+  }
+}

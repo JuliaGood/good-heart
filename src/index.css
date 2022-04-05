@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face { 
+  font-family: "Geometria";
+  font-weight: 400;
+  src: url("./assets/fonts/Geometria.eot") format("embedded-opentype"),
+  url("./assets/fonts/Geometria.woff2") format("woff2"),
+  url("./assets/fonts/Geometria.woff") format("woff"),
+  url("./assets/fonts/Geometria.ttf") format("truetype");
+}
+@font-face { 
+  font-family: "Geometria";
+  font-weight: 700;
+  src: url("./assets/fonts/Geometria-Bold.eot") format("embedded-opentype"),
+  url("./assets/fonts/Geometria-Bold.woff2") format("woff2"),
+  url("./assets/fonts/Geometria-Bold.woff") format("woff"),
+  url("./assets/fonts/Geometria-Bold.ttf") format("truetype");
+}
+@font-face { 
+  font-family: "Geometria";
+  font-weight: 900;
+  src: url("./assets/fonts/Geometria-ExtraBold.eot") format("embedded-opentype"),
+  url("./assets/fonts/Geometria-ExtraBold.woff2") format("woff2"),
+  url("./assets/fonts/Geometria-ExtraBold.woff") format("woff"),
+  url("./assets/fonts/Geometria-ExtraBold.ttf") format("truetype");
+}
+@font-face { 
+  font-family: "Geometria";
+  font-weight: 300;
+  src: url("./assets/fonts/Geometria-Light.eot") format("embedded-opentype"),
+  url("./assets/fonts/Geometria-Light.woff2") format("woff2"),
+  url("./assets/fonts/Geometria-Light.woff") format("woff"),
+  url("./assets/fonts/Geometria-Light.ttf") format("truetype");
+}
+@font-face { 
+  font-family: "Gilroy-Light";
+  src: url("./assets/fonts/Gilroy-Light.otf") format("opentype");
+}
+@font-face { 
+  font-family: "Gilroy-ExtraBold";
+  src: url("./assets/fonts/Gilroy-ExtraBold.otf") format("opentype");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  outline: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Geometria';
+  font-weight: 400;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: #363b5d; 
+  letter-spacing: 0;
+  line-height: normal;
+  box-sizing: border-box;
+  text-rendering: optimizeSpeed;
+  background-repeat: no-repeat;
+  height: 100%;
+  background: linear-gradient(to bottom, #819bbd 50%, #fff 50%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }

@@ -1,0 +1,54 @@
+.financial-help {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+}
+
+.payment-box {
+  width: 60%;
+}
+.payment-title {
+  font-size: 12px;
+  font-weight: 400;
+  color: #989fa7;
+  margin-bottom: 8px;
+}
+
+.payment-details {
+  width: 40%;
+}
+.payment-details-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin-left: auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .payment-box {
+    width: 55%;
+  }
+  .payment-details {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .financial-help {
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+  .payment-box {
+    width: 100%;
+  }
+  .payment-details {
+    width: 100%;
+  }
+  .payment-title {
+    margin-top: 14px;
+  }
+  .payment-details-box {
+    margin-left: 0;
+  }
+}

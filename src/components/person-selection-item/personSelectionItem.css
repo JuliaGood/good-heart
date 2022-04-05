@@ -1,0 +1,22 @@
+.person-selection-item {
+  border: 2px solid #363b5d;
+  padding: 6px 15px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+ }
+ .person-selection-item:first-child{
+   border-radius: 4px 0 0 4px;
+   border-width: 2px 0px 2px 2px;
+ }
+ .person-selection-item:last-child{
+   border-radius: 0 4px 4px 0;
+   border-width: 2px 2px 2px 0px;
+ }
+ .person-selection-item.active, 
+ .person-selection-item:hover {
+  color: #fff;
+  background-color: #363b5d;
+ }
+ 
