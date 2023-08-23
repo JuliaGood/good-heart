@@ -1,6 +1,7 @@
 {
   "name": "quanti_coders",
   "version": "0.1.0",
+  "homepage": "/good-heart/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",

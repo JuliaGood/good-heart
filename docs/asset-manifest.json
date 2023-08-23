@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/good-heart/static/css/main.b88bf466.css",
+    "main.js": "/good-heart/static/js/main.d76636c5.js",
+    "static/media/Geometria.eot": "/good-heart/static/media/Geometria.ec72236ac2f09649ba95.eot",
+    "static/media/Geometria.ttf": "/good-heart/static/media/Geometria.0db3c3ee492d73b6c683.ttf",
+    "static/media/Geometria-Light.eot": "/good-heart/static/media/Geometria-Light.dde3a382a2f9bf50fb9b.eot",
+    "static/media/Geometria-Light.ttf": "/good-heart/static/media/Geometria-Light.ea7203150739e1607cb3.ttf",
+    "static/media/Geometria-Bold.eot": "/good-heart/static/media/Geometria-Bold.8ae60088cb40f5dbc499.eot",
+    "static/media/Geometria-Bold.ttf": "/good-heart/static/media/Geometria-Bold.f9fb6a8803ccecf46a2a.ttf",
+    "static/media/Geometria-ExtraBold.eot": "/good-heart/static/media/Geometria-ExtraBold.73c55251bc14b3fb33fc.eot",
+    "static/media/Geometria-ExtraBold.ttf": "/good-heart/static/media/Geometria-ExtraBold.d5689a0884aa3e43fbce.ttf",
+    "static/media/Gilroy-ExtraBold.otf": "/good-heart/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "/good-heart/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "static/media/Geometria-Bold.woff": "/good-heart/static/media/Geometria-Bold.36238d836f5b545d924c.woff",
+    "static/media/Geometria.woff": "/good-heart/static/media/Geometria.963a65319690d79e0e83.woff",
+    "static/media/Geometria-ExtraBold.woff": "/good-heart/static/media/Geometria-ExtraBold.5eaf4130b1b03ef17a66.woff",
+    "static/media/Geometria-Light.woff": "/good-heart/static/media/Geometria-Light.a4a433689831df822f65.woff",
+    "static/media/Geometria.woff2": "/good-heart/static/media/Geometria.d6294dd6032c96d6d194.woff2",
+    "static/media/Geometria-Light.woff2": "/good-heart/static/media/Geometria-Light.81561ed2c33d44fffbe7.woff2",
+    "static/media/Geometria-Bold.woff2": "/good-heart/static/media/Geometria-Bold.eaec07b9c4fcbff06e79.woff2",
+    "static/media/Geometria-ExtraBold.woff2": "/good-heart/static/media/Geometria-ExtraBold.abb4c07ad2c009242316.woff2",
+    "static/media/sprite.svg": "/good-heart/static/media/sprite.c92050fe13ef956fb294b3d306dcdf25.svg",
+    "index.html": "/good-heart/index.html",
+    "main.b88bf466.css.map": "/good-heart/static/css/main.b88bf466.css.map",
+    "main.d76636c5.js.map": "/good-heart/static/js/main.d76636c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b88bf466.css",
+    "static/js/main.d76636c5.js"
+  ]
+}
